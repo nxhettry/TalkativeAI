@@ -32,9 +32,10 @@ function Body(props) {
   }, [props.reply]);
 
   return (
-    <>
+    //This is body
+    <div className="ninety flex justify-center items-center overflow-y-scroll">
       {props.question || props.reply ? <Final convo={conversation} /> : <Initial />}
-    </>
+    </div>
   );
 }
 

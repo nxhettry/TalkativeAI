@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <nav 
-      className='flex justify-between items-center w-screen h-16 bg-gradient-to-r from-black to-gray-600 via-gray-800 text-white shadow-md px-6'
+      className='flex justify-between items-center w-screen h-16 bg-gradient-to-r from-black to-gray-600 via-gray-800 text-white shadow-md px-6 absolute top-0'
     >
       <Logo />
       {matches && (

@@ -44,10 +44,10 @@ const App = () => {
   }
 
   return (
-    <div className='flex flex-col min-h-screen justify-between items-center bg-gradient-to-r from-gray-900 to-gray-500 via-gray-700'>
+    <div className='relative h-screen flex flex-col justify-center bg-gradient-to-r from-gray-900 to-gray-500 via-gray-700'>
       <Navbar />
-      <Body className="p-12 overflow-y-auto flex-grow" question={question} reply={Answer} />
-      <div className='flex flex-col justify-center items-center gap-4'>
+      <Body question={question} reply={Answer} />
+      <div className="absolute bottom-0">
         <Inputbox theQuestion={getQuestion} />
         <Footer className="mt-auto" />
       </div>

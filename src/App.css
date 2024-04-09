@@ -20,3 +20,7 @@ a.instagram {
   color: #C13584;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
 }
+
+.ninety{
+  max-height: 90%;
+}
