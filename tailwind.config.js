@@ -14,7 +14,10 @@ module.exports =  {
       },
       width: {
         'drawer': '20vw',
-      }
+      },
+      height: {
+        '70vh': '70vh',
+      },
     },
   },
   variants: {

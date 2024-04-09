@@ -33,7 +33,7 @@ function Body(props) {
 
   return (
     //This is body
-    <div className="ninety flex justify-center items-center overflow-y-scroll">
+    <div className="flex justify-center items-center overflow-y-scroll rounded-lg h-70vh">
       {props.question || props.reply ? <Final convo={conversation} /> : <Initial />}
     </div>
   );
